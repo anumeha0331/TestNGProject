@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="214" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+    <groups>
+    </groups>
+    <test name="Personnel loan" duration-ms="89" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+      <class name="test.day4">
+        <test-method status="PASS" signature="Demofinal()[pri:0, instance:test.day4@2b2948e2]" name="Demofinal" duration-ms="0" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demofinal -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:test.day2@eec5a4a]" name="Demo3" duration-ms="0" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method status="PASS" signature="Demo4()[pri:0, instance:test.day2@eec5a4a]" name="Demo4" duration-ms="0" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:test.day1@210366b4]" name="Demo1" duration-ms="16" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method status="PASS" signature="Mobilenew()[pri:0, instance:test.day1@210366b4]" name="Mobilenew" duration-ms="0" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilenew -->
+        <test-method status="PASS" signature="mobileold(java.lang.String)[pri:0, instance:test.day1@210366b4]" name="mobileold" duration-ms="0" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileold -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personnel loan -->
+    <test name="Car loan" duration-ms="16" started-at="2020-05-09T17:31:14 IST" finished-at="2020-05-09T17:31:14 IST">
+      <class name="test.day3">
+        <test-method status="PASS" signature="Demo3(java.lang.String, java.lang.String)[pri:0, instance:test.day3@57855c9a]" name="Demo3" duration-ms="0" started-at="2020-05-09T17:31:14 IST" data-provider="getdata" finished-at="2020-05-09T17:31:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method status="PASS" signature="Demo3(java.lang.String, java.lang.String)[pri:0, instance:test.day3@57855c9a]" name="Demo3" duration-ms="0" started-at="2020-05-09T17:31:14 IST" data-provider="getdata" finished-at="2020-05-09T17:31:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method status="PASS" signature="Demo3(java.lang.String, java.lang.String)[pri:0, instance:test.day3@57855c9a]" name="Demo3" duration-ms="0" started-at="2020-05-09T17:31:14 IST" data-provider="getdata" finished-at="2020-05-09T17:31:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
